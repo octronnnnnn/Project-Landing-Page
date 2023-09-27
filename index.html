@@ -4,10 +4,14 @@
         <meta charset="utf-8">
         <title>Project: Landing Page</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="navBar">
-            <img src="./images/logo-placeholder.jpg" alt="Logo Placeholder" width="150px" height="40x">
+            <!-- <img src="./images/logo-placeholder.jpg" alt="Logo Placeholder" width="150px" height="40x"> -->
+            <h4 class="navLogo">Header Logo</h4>
             <ul>
                 <li><a href="./index.html">header link one</a></li>
                 <li><a href="./index.html">header link two</a></li>
@@ -15,33 +19,44 @@
             </ul>
         </div>
         <div class="contentOne">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtet that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button type="button">Sign up</button>
-            <img src="./images/placeholder.jpg" alt="Placeholder Image">
-        </div>
-        <div class="contentTwo">
-            <div class="illustration">
-                <h2>Some random information.</h2>
-                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small" width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small" width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small" width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small" width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-            </div>           
-        </div>
-        <div class="contentThree">
-            <p>This is an inspiring quate, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
-            <p>-Thor, God of Thunder</p>
-        </div>
-        <div class="contentFour">
-            <div class="classToAction">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clikcing that button right over there!</p>
+            <div class="heroText">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                 <button type="button">Sign up</button>
+            </div>
+            <img src="./images/placeholder.jpg" alt="Placeholder Image" class="placeholderImg">
+        </div>
+        <h2 class="illustrationHeader">Some random information.</h2>
+        <div class="illustrationContainer">
+            <div class="illustration">
+                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="illustration"> 
+                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="illustration">
+                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="illustration">
+                <img src="./images/placeholderSmall.pg" alt="Placeholder Image Small">
+                <p>this is some subtext under an illustration or image</p>
+            </div>   
+        </div>
+        <div class="quote">
+            <p><em>This is an inspiring quate, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</em></p>
+            <p class="quoteSign">-Random Person</p>
+        </div>
+        <div class="callToActionContainer">
+            <div class="callToAction">
+                <div class="left">
+                    <strong>Call to action! It's time!</strong>
+                    <p>Sign up for our product by clikcing that button right over there!</p>
+                </div>
+                <div class="right"><button class="callToActionButton" type="button">Sign up</button>
+                </div>
             </div>
         </div>
         <footer>
